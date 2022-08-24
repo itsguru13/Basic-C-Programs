@@ -24,4 +24,6 @@ int main()  {
 
     printf("The Largest number is: %d", max);
 
+    return 0;
+
 }

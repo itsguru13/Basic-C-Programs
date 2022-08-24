@@ -10,6 +10,8 @@ int main()  {
     
     largest = x>y ? x : y;
 
-    printf("Largest Number: %d", largest);  
+    printf("Largest Number: %d", largest);
+
+    return 0;
 
 }
