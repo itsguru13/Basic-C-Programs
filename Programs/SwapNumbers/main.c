@@ -13,4 +13,6 @@ int main()  {
     y = temp;
 
     printf("x: %d and y: %d swapped!",x, y);
+
+    return 0;
 }
