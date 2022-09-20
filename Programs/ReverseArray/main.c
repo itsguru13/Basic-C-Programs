@@ -14,6 +14,6 @@ int main(){
         arr[n-i-1] = temp;
     }
     for(int i = 0; i < n; i++){
-        printf("%0.1f ", arr[i]);
+        printf("%4.2f ", arr[i]);
     }
 }
