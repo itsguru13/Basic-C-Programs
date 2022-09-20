@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 int main(){
-    int  n, temp;
+    int  n;
+    float temp;
     
-    int arr[]={26,28,37,26,33,31,29};
+    float arr[]={1.6, 1.8, 2.7, 1.6, 2.3, 2.1, 0.19};
     n = sizeof(arr)/sizeof(arr[0]);
     
     for(int i = 0; i<n/2; i++){
@@ -13,6 +14,6 @@ int main(){
         arr[n-i-1] = temp;
     }
     for(int i = 0; i < n; i++){
-        printf("%d", arr[i]);
+        printf("%0.1f ", arr[i]);
     }
 }
