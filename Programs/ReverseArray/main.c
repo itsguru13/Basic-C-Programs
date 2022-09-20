@@ -2,15 +2,11 @@
 #include <stdlib.h>
 
 int main(){
-    int n, temp, arr[100];
-    printf("Enter number of elements: ");
-    scanf("%d", &n);
-
-    for(int i=0; i<n; i++)  {
-        printf("Enter element %d: ", i+1);
-        scanf("%d", &arr[i]);
-    }
-
+    int  n, temp;
+    
+    int arr[]={26,28,37,26,33,31,29};
+    n = sizeof(arr)/sizeof(arr[0]);
+    
     for(int i = 0; i<n/2; i++){
         temp = arr[i];
         arr[i] = arr[n-i-1];
